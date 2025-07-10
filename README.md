@@ -21,8 +21,8 @@
 <p align="left">
 <a href="https://twitter.com/k_shahnawazhuss" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="k_shahnawazhuss" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/shahnawaz-hussain-00b7b8226/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shahnawaz-hussain-00b7b8226/" height="30" width="40" /></a>
-<a href="https://instagram.com/https://www.instagram.com/shahnawaz.hussaink" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/shahnawaz.hussaink" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/u/shahnawazhussaink/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/shahnawazhussaink/" height="30" width="40" /></a>
+<a href="https://instagram.com/shahnawaz.hussaink" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="shahnawaz.hussaink" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/shahnawazhussaink" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="shahnawazhussaink" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
