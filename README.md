@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **AI/ML**
 
-- 👨‍💻 All of my projects are available at [https://shahnawaz-hussaink.github.io/Portfolio](https://shahnawaz-hussaink.github.io/Portfolio)
+- 👨‍💻 All of my projects are available at [https://portfolio2-0-pi-nine.vercel.app](https://portfolio2-0-pi-nine.vercel.app)
 
 - 💬 Ask me about **React,Javascript,DSA**
 
