@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm **Shahnawaz Hussain** from India.</h1>
+<h1 align="center">Hi, I'm <strong>Shahnawaz Hussain</strong> from India.</h1>
 <h3 align="center">Dedicated to building smooth and accessible web experiences</h3>
 
 
