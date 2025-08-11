@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Shahnawaz Hussain</h1>
 <h3 align="center">Dedicated to building smooth and accessible web experiences</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shahnawaz-hussaink&label=Profile%20views&color=0e75b6&style=flat" alt="shahnawaz-hussaink" /> </p>
 
 - 🔭 I’m currently working on **StudX**
 
@@ -9,7 +8,7 @@
 
 - 👨‍💻 All of my projects are available at [https://portfolio2-0-pi-nine.vercel.app](https://portfolio2-0-pi-nine.vercel.app)
 
-- 💬 Ask me about **React,Javascript,DSA**
+- 💬 Ask me about **React,Backend,Frontend,Web-Dev,Javascript,DSA,**
 
 - 📫 How to reach me **shahnawaz.hussain96508@gmail.com**
 
