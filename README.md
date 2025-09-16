@@ -6,13 +6,13 @@
 
 - 🌱 I’m currently learning **AI/ML**
 
-- 👨‍💻 All of my projects are available at [https://portfolio2-0-pi-nine.vercel.app](https://portfolio2-0-pi-nine.vercel.app)
+- 👨‍💻 All of my projects are available at [Shahnawaz Hussain](https://portfolio2-0-pi-nine.vercel.app)
 
 - 💬 Ask me about **React,Backend,Frontend,Web-Dev,Javascript,DSA,**
 
 - 📫 How to reach me **shahnawaz.hussain96508@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1-2U3sOYUpDXuEUwdPyr_sRywfkC42s1c/view?usp=sharing](https://drive.google.com/file/d/1-2U3sOYUpDXuEUwdPyr_sRywfkC42s1c/view?usp=sharing)
+- 📄 Know about my experiences [Resume](https://drive.google.com/file/d/1JuRU85oUYq18H_MdXWuy7cSG0YM4-Nut/view?usp=share_link)
 
 - ⚡ Fun fact **I talk to AI more than to people.**
 
