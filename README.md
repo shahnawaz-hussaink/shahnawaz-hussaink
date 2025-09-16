@@ -2,7 +2,7 @@
 <h3 align="center">Dedicated to building smooth and accessible web experiences</h3>
 
 
-- 🔭 I’m currently working on **StudX**
+- 🔭 I’m currently working on **Mind-Z**
 
 - 🌱 I’m currently learning **AI/ML**
 
