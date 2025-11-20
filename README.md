@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **AI/ML**
 
-- 👨‍💻 All of my projects are available at [Shahnawaz Hussain](https://portfolio2-0-pi-nine.vercel.app)
+- 👨‍💻 All of my projects are available at [Shahnawaz Hussain](https://shahcodes.dev)
 
 - 💬 Ask me about **React,Backend,Frontend,Web-Dev,Javascript,DSA,**
 
