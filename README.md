@@ -2,8 +2,6 @@
 <h3 align="center">Dedicated to building smooth and accessible web experiences</h3>
 
 
-- 🔭 I’m currently working on **Mind-Z**
-
 - 🌱 I’m currently learning **AI/ML**
 
 - 👨‍💻 All of my projects are available at [Shahnawaz Hussain](https://shahcodes.dev)
