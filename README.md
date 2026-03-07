@@ -49,7 +49,6 @@
 
 ### GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shahnawaz-hussaink&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahnawaz-hussaink&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</p>
+![Profile Views](https://komarev.com/ghpvc/?username=shahnawaz-hussaink&color=blueviolet&style=flat)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shahnawaz-hussaink&theme=tokyonight)
+
