@@ -48,7 +48,7 @@
 ---
 
 ### GitHub Stats
-
+<div align="center">
 ![Profile Views](https://komarev.com/ghpvc/?username=shahnawaz-hussaink&color=blueviolet&style=flat)
 ![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shahnawaz-hussaink&theme=tokyonight)
-
+</div>
