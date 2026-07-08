@@ -1,5 +1,5 @@
 <h1 align="center">Shahnawaz Hussain</h1>
-<h3 align="center">Full-Stack Developer · India 🇮🇳</h3>
+<h3 align="center">Backend Developer · India 🇮🇳</h3>
 
 <p align="center">
   Building smooth, accessible, and performant web experiences — one component at a time.
