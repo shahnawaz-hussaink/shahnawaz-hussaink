@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" font-family="'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" fill="#e6edf3">
+<title>Request lifecycle: React/Angular client to Node.js/Go gateway, JWT, CORS and rate-limit middleware, Redis cache, MongoDB/MySQL — on AWS</title>
+<rect x="0.5" y="0.5" width="759" height="429" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="34" font-size="12" fill="#8b949e">// GET /v1/stack — the path a request takes through everything I use</text>
+
+<rect x="180" y="56" width="560" height="300" rx="12" fill="none" stroke="#f0883e" stroke-opacity="0.6" stroke-dasharray="6 6"/>
+<text x="196" y="76" font-size="10" letter-spacing="1.6" font-weight="700" fill="#f0883e">AWS</text>
+
+<path d="M140,195 H200" fill="none" stroke="#30363d" stroke-width="2"/>
+<path d="M330,195 H370" fill="none" stroke="#30363d" stroke-width="2"/>
+<path d="M510,175 C535,175 540,118 560,118" fill="none" stroke="#30363d" stroke-width="2"/>
+<path d="M510,215 C535,215 540,282 560,282" fill="none" stroke="#30363d" stroke-width="2"/>
+<path d="M80,240 C80,332 265,336 265,252" fill="none" stroke="#a371f7" stroke-width="2" stroke-dasharray="5 5">
+<animate attributeName="stroke-dashoffset" from="0" to="-20" dur="0.8s" repeatCount="indefinite"/></path>
+<text x="172" y="334" text-anchor="middle" font-size="11" fill="#a371f7">WebSockets ⇄</text>
+
+<rect x="20" y="150" width="120" height="90" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="34" y="172" font-size="10" letter-spacing="1.6" fill="#79c0ff" font-weight="700">CLIENT</text>
+<text x="34" y="196" font-size="14" fill="#e6edf3">React</text>
+<text x="34" y="217" font-size="14" fill="#e6edf3">Angular</text>
+<rect x="200" y="136" width="130" height="116" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="214" y="158" font-size="10" letter-spacing="1.6" fill="#3fb950" font-weight="700">GATEWAY</text>
+<text x="214" y="182" font-size="14" fill="#e6edf3">Node.js</text>
+<text x="214" y="203" font-size="14" fill="#e6edf3">Express</text>
+<text x="214" y="224" font-size="14" fill="#e6edf3">Go</text>
+<rect x="370" y="96" width="140" height="196" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="384" y="118" font-size="10" letter-spacing="1.6" font-weight="700" fill="#d29922">MIDDLEWARE</text>
+<rect x="384" y="134" width="112" height="24" rx="12" fill="none" stroke="#79c0ff" stroke-opacity="0.55"/><text x="440.0" y="150" text-anchor="middle" font-size="12" fill="#e6edf3">JWT auth</text>
+<rect x="384" y="166" width="112" height="24" rx="12" fill="none" stroke="#79c0ff" stroke-opacity="0.55"/><text x="440.0" y="182" text-anchor="middle" font-size="12" fill="#e6edf3">CORS</text>
+<rect x="384" y="198" width="112" height="24" rx="12" fill="none" stroke="#f85149" stroke-opacity="0.55"/><text x="440.0" y="214" text-anchor="middle" font-size="12" fill="#e6edf3">rate limit</text>
+<rect x="384" y="230" width="112" height="24" rx="12" fill="none" stroke="#79c0ff" stroke-opacity="0.55"/><text x="440.0" y="246" text-anchor="middle" font-size="12" fill="#e6edf3">error handler</text>
+<text x="440" y="276" text-anchor="middle" font-size="10" fill="#8b949e">MVC · REST</text>
+<rect x="560" y="84" width="160" height="70" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="574" y="106" font-size="10" letter-spacing="1.6" fill="#f85149" font-weight="700">CACHE</text>
+<text x="574" y="130" font-size="14" fill="#e6edf3">Redis</text>
+<rect x="560" y="236" width="160" height="92" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="574" y="258" font-size="10" letter-spacing="1.6" fill="#3fb950" font-weight="700">DATABASE</text>
+<text x="574" y="282" font-size="14" fill="#e6edf3">MongoDB</text>
+<text x="574" y="303" font-size="14" fill="#e6edf3">MySQL</text>
+
+<circle r="5" fill="#3fb950"><animateMotion path="M140,195 H372 L512,175 L560,118 L620,118" dur="3.2s" begin="0s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"/></circle><circle r="11" fill="#3fb950" opacity="0.18"><animateMotion path="M140,195 H372 L512,175 L560,118 L620,118" dur="3.2s" begin="0s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"/></circle>
+<circle r="5" fill="#d29922"><animateMotion path="M140,195 H372 L512,215 L560,282 L620,282" dur="4.4s" begin="1.1s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"/></circle><circle r="11" fill="#d29922" opacity="0.18"><animateMotion path="M140,195 H372 L512,215 L560,282 L620,282" dur="4.4s" begin="1.1s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"/></circle>
+<circle r="5" fill="#f85149"><animateMotion path="M140,195 H362 L384,210" dur="2.6s" begin="0.5s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.45;1" calcMode="linear"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.58;1" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle><circle r="11" fill="#f85149" opacity="0.18"><animateMotion path="M140,195 H362 L384,210" dur="2.6s" begin="0.5s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.45;1" calcMode="linear"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.58;1" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+<text x="440" y="316" text-anchor="middle" font-size="12" font-weight="700" fill="#f85149" opacity="0">429 Too Many Requests
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.44;0.5;0.85;1" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></text>
+
+<line x1="24" y1="378" x2="736" y2="378" stroke="#30363d"/>
+<circle cx="29" cy="404" r="5" fill="#3fb950"/><text x="40" y="408" font-size="12" fill="#8b949e">cache hit</text>
+<circle cx="127.8" cy="404" r="5" fill="#d29922"/><text x="138.8" y="408" font-size="12" fill="#8b949e">db query</text>
+<circle cx="219.39999999999998" cy="404" r="5" fill="#f85149"/><text x="230.39999999999998" y="408" font-size="12" fill="#8b949e">429 rate-limited</text>
+<circle cx="368.59999999999997" cy="404" r="5" fill="#a371f7"/><text x="379.59999999999997" y="408" font-size="12" fill="#8b949e">realtime</text>
+<text x="736" y="408" text-anchor="end" font-size="12" fill="#8b949e">also: C++ · C · Python · Git · Figma</text>
+</svg>
