@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="$ curl api.shahcodes.dev/v1/whoami → HTTP/1.1 200 OK — Shahnawaz Hussain, Backend Developer, Intern @ SamarthX" />
+  <img src="./assets/terminal.svg" width="100%" alt="$ curl api.shahcodes.dev/v1/whoami → HTTP/1.1 200 OK — Shahnawaz Hussain, Backend Developer in Delhi. Developer at SamarthX eGov, CyPSi Lab, University of Delhi. CS at ARSD College. Speaks Go, JavaScript, TypeScript, C++, Python. Stores data in PostgreSQL, MongoDB, Redis." />
 </p>
 
 <p align="center">
@@ -21,60 +21,105 @@
 ## `GET /v1/stack`
 
 <p align="center">
-  <img src="./assets/request-flow.svg" width="100%" alt="A request flows from a React/Angular client, through a Node.js/Express/Go gateway on AWS, through JWT, CORS, rate-limit and error-handling middleware, then to Redis (cache hit) or MongoDB/MySQL (db query). Some requests get a 429. WebSockets keep a realtime channel open." />
+  <img src="./assets/request-flow.svg" width="100%" alt="A request flows from a React/Angular client, through a Node.js/Express/Go gateway on AWS, through JWT, CORS, rate-limit and error-handling middleware, then to Redis/BullMQ (cache hit) or PostgreSQL/MongoDB/MySQL (db query). Some requests get a 429. WebSockets keep a realtime channel open." />
 </p>
 
-<p align="center"><sub>green hits Redis and returns fast · amber goes to the database · red gets rate-limited — every box is something I build with</sub></p>
+<p align="center"><sub>green hits Redis and returns fast · amber goes to the database · red gets rate-limited. Every box is something I build with.</sub></p>
+
+<br/>
+
+## `GET /v1/projects?sort=hardest_problem`
+
+| `resource` | `the hard part` | `stack` |
+| :-- | :-- | :-- |
+| **[irctc-backend](https://github.com/shahnawaz-hussaink/irctc-backend)**<br/><sub>railway booking engine</sub> | Two users, one seat, same millisecond. `SELECT … FOR UPDATE` row locks inside ACID transactions, 10-minute TTL seat holds, BullMQ workers for waitlist promotion and emails, and Redis-backed rate limits at four tiers. | Node · Express · PostgreSQL · Prisma · Redis · BullMQ |
+| **[debug-arena](https://github.com/shahnawaz-hussaink/debug-arena)**<br/><sub>live DSA tournaments · [demo](https://debug-arena.vercel.app)</sub> | Ran a live multi-college tournament with 35+ participants, crash-free. Strict timers, real-time monitoring, sandboxed code execution through Judge0. | React · Express · Firestore · Judge0 |
+| **[Backend_Video_Tube](https://github.com/shahnawaz-hussaink/Backend_Video_Tube)**<br/><sub>YouTube-style backend</sub> | The full content lifecycle: Multer → Cloudinary uploads, JWT access/refresh rotation, subscriptions, likes, comments, and aggregation pipelines for watch history. | Node · Express · MongoDB · Cloudinary |
+| **[otp-verification-system](https://github.com/shahnawaz-hussaink/otp-verification-system)**<br/><sub>OTP over email & SMS</sub> | OTPs that expire on their own (Redis TTL), can't be brute-forced (rate limits), and are generated with `crypto`, not `Math.random`. | Node · Redis · Twilio · Nodemailer |
+| **[URL-Shortener](https://github.com/shahnawaz-hussaink/URL-Shortener)**<br/><sub>link management backend</sub> | Collision-resistant NanoID codes, custom slugs, link expiry, IP geolocation and per-link click analytics. | Node · Express · JWT · NanoID |
+| **[MOSAI CMS](https://github.com/u-b-001/main)**<br/><sub>contributor · [mosai.org.in](https://mosai.org.in)</sub> | Headless CMS backend running in production: dynamic content collections, role-based access control, REST + GraphQL APIs. | Payload CMS · Next.js · TypeScript |
+
+<p align="right"><sub><a href="https://github.com/shahnawaz-hussaink?tab=repositories">GET /v1/projects?page=2 →</a></sub></p>
 
 <br/>
 
 ## `GET /v1/experience`
 
 ```yaml
-- company: SamarthX
-  role: Intern
+- role: Developer
+  org: SamarthX eGov · Cyber Physical Systems (CyPSi) Lab, University of Delhi
+  period: Jun 2026 – present
+  work:
+    - real-time backend architectures and data-ingestion APIs
+    - backend systems + admin dashboards for CMS and content-management tools
+  optimising_for: [scalability, correctness]
+
+- role: Organising Conference Member
+  org: India's International Movement to Unite Nations (IIMUN)
+  period: Sep 2025 – Jan 2026
+  work:
+    - ran operational workflows and scheduling for large virtual delegation conferences
+    - led communications across university and high-school delegates
+
+- event: Pitchcraft            # Oct 2025 · team CAFFeINE-CORRUPT
+  built: AI rental platform with AI matching, a "rental DNA" score and verified listings
+  stack: [Next.js, FastAPI, Supabase]
+
+- event: AceHack, Jaipur       # Mar 2025
+  built: expense tracker, where I owned the React + Tailwind frontend
 ```
 
 <!--
-  Make this section hit hard — add these keys inside the yaml block above:
-
-  period: Jun 2026 – present
-  shipped:
-    - REST APIs in Node.js/Express used by <N> users
-    - Redis caching that cut response time by <X>%
-    - JWT auth + rate limiting across <N> endpoints
-
-  Numbers > adjectives. Recruiters skim for them.
+  Numbers > adjectives. When you have them, add lines like:
+    - ingestion API handling <N> events/sec
+    - cut p95 latency from <X>ms to <Y>ms with Redis caching
 -->
+
+<br/>
+
+## `GET /v1/metrics`
+
+<!-- stats:start -->
+```json
+{
+  "github": {"public_repos": 38, "stars_earned": 21, "followers": 53},
+  "leetcode": {"solved": 264, "easy": 98, "medium": 142, "hard": 24},
+  "updated_at": "2026-10-15"
+}
+```
+<!-- stats:end -->
+
+<!-- activity:start -->
+```console
+[2026-10-08 07:23] PUSH   irctc-backend → main
+[2026-10-08 07:23] MERGE  irctc-backend#1
+[2026-10-08 07:22] PR     irctc-backend#1
+[2026-10-08 07:20] PUSH   irctc-backend → docs/expand-readme
+[2026-10-08 07:19] NEW    branch docs/expand-readme in irctc-backend
+[2026-10-08 06:51] STAR   community/community
+```
+<!-- activity:end -->
+
+<p align="center"><sub>refreshed every morning by a <a href="./.github/workflows/update-readme.yml">GitHub Action</a> I wrote. No third-party widgets, no broken images.</sub></p>
 
 <br/>
 
 ## `GET /v1/changelog`
 
 ```diff
-+ added       Go — goroutines are my new love language
-+ added       Angular — to understand the people calling my APIs
-+ joined      SamarthX as an Intern
-+ learned     JWT auth, rate limiting, Redis caching, WebSockets
++ joined      SamarthX eGov · CyPSi Lab, DU (building real-time ingestion APIs)
++ shipped     debug-arena to a live multi-college tournament: 35+ coders, 0 crashes
++ added       PostgreSQL + Prisma, because row-level locks beat hoping for the best
++ added       BullMQ: if it can be async, it goes in a queue
++ added       Go: goroutines are my new love language
++ added       Angular, to understand the people calling my APIs
 - removed     fear of production deploys
 - deprecated  console.log debugging (mostly)
 
 @@ in progress @@
-  industry-level backend engineering
   system design: caching, scaling, failure modes
+  distributed locks & idempotent APIs
   Go concurrency patterns
-```
-
-<br/>
-
-## `tail -f /var/log/shahnawaz.log`
-
-```console
-[INFO]  reading Express source code to see how routing actually works
-[INFO]  talked to AI more than to humans today. again.
-[WARN]  "it works on my machine" detected — investigating
-[DEBUG] chai level: sufficient for 1 more endpoint
-[INFO]  open to backend roles & collaborations
 ```
 
 <br/>
@@ -82,12 +127,12 @@
 ## `POST /v1/hire`
 
 ```bash
-# no SDK, no auth token — just send it
+# open to backend roles & collaborations. No SDK, no auth token, just send it
 open "mailto:shahnawaz.hussain96508@gmail.com?subject=Let's%20build%20something"
 ```
 
 <br/>
 
 <p align="center">
-  <sub><code>429 Too Many Requests</code> — you've reached the end of this README.<br/>My inbox, however, has no rate limit.</sub>
+  <sub><code>429 Too Many Requests</code>: you've reached the end of this README.<br/>My inbox, however, has no rate limit.</sub>
 </p>
