@@ -1,0 +1,79 @@
+{
+  "github": {
+    "public_repos": 38,
+    "followers": 53,
+    "stars": 21,
+    "repo_stars": {
+      "Backend_Video_Tube": 0,
+      "chrome-gemini-extension": 0,
+      "CleanRoute": 0,
+      "Data_Type_and_Structure": 0,
+      "debug-arena": 0,
+      "Feature-Engineering": 0,
+      "Functions": 0,
+      "Invoice-Builder": 0,
+      "irctc-backend": 16,
+      "MailSense": 0,
+      "Mind-Z": 0,
+      "Netflix": 0,
+      "notify-backend-service": 0,
+      "otp-verification-system": 1,
+      "Portfolio": 0,
+      "Portfolio2.0": 1,
+      "Project-CSS": 0,
+      "Project-Dog": 0,
+      "Project-Restaurant": 0,
+      "Project-Weather": 0,
+      "pyFit": 0,
+      "PythonBasics": 0,
+      "Python_OOPs": 0,
+      "shahnawaz-hussaink": 0,
+      "ShopOn": 0,
+      "SimonSaysGame": 0,
+      "Statistics_Advanced-2": 0,
+      "studx": 2,
+      "TextEditor": 0,
+      "Todos-LIst": 0,
+      "URL-Shortener": 1
+    }
+  },
+  "leetcode": {
+    "solved": 264,
+    "easy": 98,
+    "medium": 142,
+    "hard": 24
+  },
+  "events": [
+    [
+      "Oct 08, 12:53",
+      "PUSH",
+      "irctc-backend → main"
+    ],
+    [
+      "Oct 08, 12:53",
+      "MERGE",
+      "irctc-backend#1"
+    ],
+    [
+      "Oct 08, 12:52",
+      "PR",
+      "irctc-backend#1"
+    ],
+    [
+      "Oct 08, 12:50",
+      "PUSH",
+      "irctc-backend → docs/expand-readme"
+    ],
+    [
+      "Oct 08, 12:49",
+      "NEW",
+      "branch docs/expand-readme in irctc-backend"
+    ],
+    [
+      "Oct 08, 12:21",
+      "STAR",
+      "community/community"
+    ]
+  ],
+  "updated": "Oct 15, 2026"
+}
